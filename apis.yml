@@ -1,8 +1,28 @@
 aid: vital-lyfe
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vital-lyfe.png
 name: Vital Lyfe
-description: Vital Lyfe is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Vital Lyfe is a Torrance, California hardware company building portable water
+  purification technology designed to scale where infrastructure cannot reach.
+  Its flagship product, Access, is a portable watermaker that converts naturally
+  occurring water, including saltwater, into clean drinking water through a simple
+  place-a-hose, press-start, hydrate workflow. The company sells the Access device
+  and branded gear through a direct-to-consumer Shopify storefront and publishes a
+  mission, team, careers, and journal. It was surfaced as a General Catalyst
+  portfolio company and added to the API Evangelist network. As of this enrichment
+  pass, Vital Lyfe is a consumer-hardware and e-commerce brand with no public API,
+  SDK, or developer program surface.
 url: https://raw.githubusercontent.com/api-evangelist/vital-lyfe/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +32,36 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Water Purification
+- Hardware
+- Consumer Products
+- Clean Water
+- Sustainability
+- E-Commerce
 apis: []
+common:
+- type: DomainSecurity
+  url: security/vital-lyfe-domain-security.yml
+- type: Website
+  url: https://vital-lyfe.com
+- type: SignUp
+  url: https://vital-lyfe.com/shop
+- type: Blog
+  url: https://vital-lyfe.com/journal
+- type: PrivacyPolicy
+  url: https://vital-lyfe.com/privacy-policy
+- type: TermsOfService
+  url: https://vital-lyfe.com/terms-of-service
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
